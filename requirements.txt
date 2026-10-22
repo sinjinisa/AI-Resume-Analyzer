@@ -1,0 +1,9 @@
+pypdf
+python-docx
+scikit-learn
+pandas
+streamlit
+reportlab
+pytest
+
+
