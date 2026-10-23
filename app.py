@@ -38,6 +38,20 @@ st.subheader("Cloud Deployment Diagnostics")
 
 st.write("Application directory:", str(DEBUG_ROOT))
 
+st.write(
+    "Files and folders at application root:",
+    sorted(item.name for item in DEBUG_ROOT.iterdir())
+)
+
+st.write(
+    "Locations of job_roles.csv:",
+    sorted(
+        str(item.relative_to(DEBUG_ROOT))
+        for item in DEBUG_ROOT.rglob("job_roles.csv")
+        if item.is_file()
+    )
+)
+
 st.write("Data folder exists:", DEBUG_DATA.is_dir())
 
 st.write("job_roles.csv exists:", DEBUG_JOBS.is_file())
