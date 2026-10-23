@@ -1,0 +1,31 @@
+skill,category,aliases
+Python,Programming,python
+C++,Programming,c++
+C#,Programming,c#
+Java,Programming,java
+JavaScript,Programming,javascript|java script
+TypeScript,Programming,typescript
+HTML,Web Development,html
+CSS,Web Development,css
+React,Web Development,react|react.js|reactjs
+Node.js,Web Development,node.js|nodejs
+FastAPI,Backend,fastapi|fast api
+Django,Backend,django
+Flask,Backend,flask
+SQL,Database,sql
+PostgreSQL,Database,postgresql|postgres
+MySQL,Database,mysql
+MongoDB,Database,mongodb
+Pandas,Data Science,pandas
+NumPy,Data Science,numpy
+Excel,Data Analysis,excel|microsoft excel
+Power BI,Data Analysis,power bi|powerbi
+Tableau,Data Analysis,tableau
+Machine Learning,AI and ML,machine learning|ml
+Deep Learning,AI and ML,deep learning
+Scikit-learn,AI and ML,scikit-learn|scikit learn|sklearn
+TensorFlow,AI and ML,tensorflow
+PyTorch,AI and ML,pytorch
+NLP,AI and ML,nlp|natural language processing
+Docker,DevOps,docker
+Git,Tools,git

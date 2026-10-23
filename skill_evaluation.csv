@@ -1,0 +1,17 @@
+id,text,expected_skills
+EV01,Built Python scripts and queried SQL databases.,Python|SQL
+EV02,Created Excel dashboards and reports in Power BI.,Excel|Power BI
+EV03,Used Pandas for data cleaning and trained Machine Learning models.,Pandas|Machine Learning
+EV04,Deployed services using Docker and FastAPI.,Docker|FastAPI
+EV05,Built web interfaces with React and JavaScript.,React|JavaScript
+EV06,Wrote Python automation and used Pandas for tabular analysis.,Python|Pandas
+EV07,Skilled in SQL and Excel for reporting.,SQL|Excel
+EV08,Developed React frontends and Python backends.,React|Python
+EV09,I have never used Docker and do not claim Docker experience.,
+EV10,I have not learned Python or SQL.,
+EV11,I use Python but have not used Docker.,Python
+EV12,I know Excel but am interested in learning Pandas.,Excel
+EV13,I am interested in React roles but have only practiced SQL.,SQL
+EV14,Managed meeting schedules and organized events.,
+EV15,Built applications in JavaScript and React but have no FastAPI experience.,JavaScript|React
+EV16,I have used SQL and Power BI but never used Python.,SQL|Power BI
