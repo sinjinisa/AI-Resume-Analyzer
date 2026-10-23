@@ -27,6 +27,29 @@ st.set_page_config(
     layout="wide"
 )
 
+# Temporary Streamlit deployment diagnostics
+from pathlib import Path
+
+DEBUG_ROOT = Path(__file__).resolve().parent
+DEBUG_DATA = DEBUG_ROOT / "data"
+DEBUG_JOBS = DEBUG_DATA / "job_roles.csv"
+
+st.subheader("Cloud Deployment Diagnostics")
+
+st.write("Application directory:", str(DEBUG_ROOT))
+
+st.write("Data folder exists:", DEBUG_DATA.is_dir())
+
+st.write("job_roles.csv exists:", DEBUG_JOBS.is_file())
+
+if DEBUG_DATA.is_dir():
+    st.write(
+        "Files found inside data:",
+        sorted(file.name for file in DEBUG_DATA.iterdir())
+    )
+else:
+    st.error("The cloud server cannot find the data folder.")
+
 
 # ==========================================
 # PROFESSIONAL DASHBOARD HEADER
